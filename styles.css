@@ -1,2 +1,14 @@
+.holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Optional: Adds some space between items */
+}
 
-/* Your CSS Code here. */
+.item {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
